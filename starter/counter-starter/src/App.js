@@ -11,9 +11,12 @@ function App() {
         <img className="nav-icon" src={ShoppingIcon} alt="shopping icon" />
         <h1 className="nav-title">ShoppingList</h1>
       </nav>
-      
-      <section className="container">
 
+      <section className="container">
+        <form className="form">
+          <input className="input" type="text" placeholder="List" />
+          <button className="add-button" type="submit">add</button>
+        </form>
       </section>
     </>
   );
